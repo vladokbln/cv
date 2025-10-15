@@ -65,3 +65,27 @@ h2,
 	padding: 0 15px;
 }
 /* end main-nav*/
+/* profile */
+.profile {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.profile__main {
+	width: 50%;
+}
+.profile__title {
+	font-size: 64px;
+}
+.profile__descr {
+	font-size: 32px;
+}
+.profile__img {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+}
+.profile__img img {
+	width: 300px;
+}
+/* end profile */
