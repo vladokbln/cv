@@ -43,6 +43,7 @@ h2,
 }
 /* header */
 .header {
+	position: relative;
 	padding: 30px 0;
 	background: #fff;
 	-webkit-box-shadow: 0px 1px 10px -5px rgba(0,0,0,0.75);
@@ -92,6 +93,22 @@ h2,
 	bottom: 3px;
 	transition: .3s;
 }
+.active-menu .nav-toggle__line--top {
+	top: 10px;
+	transition: .3s;
+	transform: rotate(45deg);
+}
+.active-menu .nav-toggle__line--middle {
+	top: 8.5px;
+	transition: 0.3s;
+	opacity: 0;
+}
+.active-menu .nav-toggle__line--bottom {
+	top: 10px;
+	transition: 0.3s;
+	transform: rotate(-45deg);
+}
+		
 /* end main-nav*/
 /* profile */
 .profile {
